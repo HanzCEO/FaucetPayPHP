@@ -1,5 +1,5 @@
 # FaucetPayPHP
-FaucetPay API client in PHP, suitable for clever developers and webmasters
+The most size efficient (lightweight) and beginner friendly FaucetPay API client in PHP, suitable for clever developers and webmasters
 
 # Get Started
 1. Download the script
