@@ -2,14 +2,15 @@
 
 class FaucetPay
 {
-	public $BASE = "https://faucetpay.io/api/v1";
-	private $use_curl = true;
+	public $BASE = "https://faucetpay.io/api/";
+	public $use_curl = true;
 	public $default_array = array(
 		'api_key' => ''
 	);
 
-	function __construct($api_key, $use_curl=true)
+	function __construct($api_key, $use_curl=true, $api_version='v1')
 	{
+		$this->BASE .= $api_version;
 		$this->default_array['api_key'] = $api_key;
 		$this->use_curl = $use_curl;
 	}
