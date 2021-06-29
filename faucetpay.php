@@ -53,7 +53,7 @@ class FaucetPay
 	{
 		// TODO: When named arguments widely used, i will implement here
 		$response = array();
-		$test = end($arguments) == 1;
+		$test = end($arguments) === TRUE;
 		$arguments = array_merge($this->default_array, $arguments[0]);
 
 		if ($this->use_curl)
@@ -62,7 +62,7 @@ class FaucetPay
 		}
 		else
 		{
-			$response = $this->post_curl("{$this->BASE}/$method", $arguments);
+			$response = $this->post_no_curl("{$this->BASE}/$method", $arguments);
 		}
 
 		if ($test)
