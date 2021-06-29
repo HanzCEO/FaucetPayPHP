@@ -52,6 +52,13 @@ class FaucetPay
 	function __call($method, $arguments)
 	{
 		// TODO: When named arguments widely used, i will implement here
+
+		if (count($arguments) === 0)
+		{
+			$arguments[0] = [];
+			$arguments[1] = false;
+		}
+
 		$response = array();
 		$test = end($arguments) === TRUE;
 		$arguments = array_merge($this->default_array, $arguments[0]);
