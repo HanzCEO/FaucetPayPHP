@@ -33,8 +33,5 @@ print_r($response);
 # End Notes
 Thank you for visiting this page! Appreciate my works by Following, being a Stargazer, Contribute to the project or Donate me via cryptocurrency down below
 
-BTC, ETH, LTC, BCH, DASH, DGB, FEY via FaucetPay (username: Hanz)
-DOGE : DFazapEWQNFBDMRN4Soo4iGDRgdqKqUSfR
+BTC, ETH, LTC, BCH, DASH, DGB, FEY via FaucetPay (username: Hanz)<br/>
 WAVES : use alias (hanz, hanzhaxors, haxors)
-
-I have a faucet based on this: [IdleCaptcha](https://ic.hanzhaxors.online)
